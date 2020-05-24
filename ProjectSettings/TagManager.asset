@@ -8,6 +8,7 @@ TagManager:
   - Car
   - Chest
   - Box
+  - Text
   layers:
   - Default
   - TransparentFX
