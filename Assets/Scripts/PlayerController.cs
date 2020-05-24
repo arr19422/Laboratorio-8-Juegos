@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
             RaycastHit hitInfo;
             Ray myRay = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-            if(Physics.Raycast(myRay, out hitInfo, 2))
+            if(Physics.Raycast(myRay, out hitInfo, 3))
             {
                 if (ui && hitInfo.collider.gameObject.tag != "Untagged")
                 {
